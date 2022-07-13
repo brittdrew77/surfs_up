@@ -18,7 +18,11 @@ The December temparatures range from a minimum of 56 degrees to a maximum of 83 
 
 ## 3. Summary
 ### Additional Queries
-In order to analyze temperature trends more in depth, I would write two queries that look at more than just once month. For example, I would compare the months June-August using the code: to the months of December-February. This will provide more data to better help contrast the summer and winter season temperatures. 
+In order to analyze temperature trends more in depth, I would write two queries that look at more than just once month. 
+For example, I would compare the months June-August to the months of December-February.
+This will provide more data to better help contrast the summer and winter season temperatures. 
 ### Histograms
 Also, I would look at the graphs of each month, using the code: june_temps_df.hist() and december_temps_df.hist(). It is better to visualize results than to simply look at statistics and numbers. I found that for each month, they share the same median and average, meaning the data follows a normal distribution and there are likely no outliers. This result is better shown visually.
 
+<img width="586" alt="Screen Shot 2022-07-13 at 12 21 44 PM" src="https://user-images.githubusercontent.com/105089651/178783829-b273548c-ec16-49fc-92b1-8756fe9da86e.png">
+<img width="618" alt="Screen Shot 2022-07-13 at 12 22 49 PM" src="https://user-images.githubusercontent.com/105089651/178783840-d40da9fa-b389-404a-bd7a-38a9050e458c.png">
